@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px) {
+    .video {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wrapper {
+        margin: auto;
+        top: 20rem;
+    }
+
+    section {
+        top: 4rem;
+        margin-left: 8rem;
+
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wrapper {
+        margin: auto;
+        top: 8rem;
+    }
+
+    section {
+        top: 1px;
+        margin-left: 7rem;
+        position: absolute;
+    }
+
+    .wrapper-body section .container {
+        height: 100px;
+        max-width: 500px;
+        background: rgba(0, 0, 0, 1);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 100px;
+        padding: 0 70px;
+        position: relative;
+    }
+
+    section .container .time .time-colon .time-text {
+        height: 60px;
+        width: 60px;
+    }
+
+    section .container .time .time-colon .time-text,
+    section .container .time .time-colon .colon {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    section .container .icon span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .video {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: auto;
+        top: 3rem;
+    }
+
+    section {
+        top: 38rem;
+        margin-left: 2rem;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .video {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: auto;
+        top: 3rem;
+    }
+
+    section {
+        top: 38rem;
+        margin-left: 0.8rem;
+        position: absolute;
+    }
+
+}
